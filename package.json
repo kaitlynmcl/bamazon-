@@ -1,0 +1,28 @@
+{
+  "name": "bamazon-",
+  "version": "1.0.0",
+  "description": "Application to purchase from shop and update inventory. ",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlynmcl/bamazon-.git"
+  },
+  "keywords": [
+    "shopping",
+    "inventory",
+    "amazon"
+  ],
+  "author": "km",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlynmcl/bamazon-/issues"
+  },
+  "homepage": "https://github.com/kaitlynmcl/bamazon-#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
