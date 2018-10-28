@@ -55,7 +55,7 @@ function start() {                                  // INQUIRER PROMPTS QUESTION
                 }
                 else {                                  // PLACES ORDER IF POSSIBLE AND UPDATES STOCK QTY, ELSE ORDER CANNOT BE PLACED
                     console.log("We're sorry, we are out of stock. Please check again tomorrow.")
-                    start()
+                    connection.end();
                 }
             };
         })
